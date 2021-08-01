@@ -59,4 +59,4 @@ jobs:
         with:
           app-name: 'sebastiant-ms-migration'
           slot-name: 'production'
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_c445fc94f17b4bb4b7fdaba3abcfb816 }}
+          publish-profile: ${{ secrets.AzureAppService_PublishProfile_d8f07015d09b4e60a7adde4810bdff5e }}
