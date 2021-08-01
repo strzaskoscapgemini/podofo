@@ -20,7 +20,7 @@ def lemmatize(word):
     return stemmer.stem(word, 0, len(word) - 1)
 
 def conn_to_db(db_name):
-    conn = sqlite3.connect(app.config['DB_PATH'] + db_name)
+    conn = {ODBC Driver 13 for SQL Server};Server=tcp:sebastiant-sql-server.database.windows.net,1433;Database=sebastiant-ws-migration-db;Uid=sebastiantrzaskos;Pwd={turcja185S!};Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;
     conn.create_function('LOG', 1, math.log)
     return conn
 
